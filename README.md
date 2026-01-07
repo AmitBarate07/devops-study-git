@@ -22,9 +22,30 @@ A detailed GitWorking
 ## GitCammands
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/weather-app.git
+    git clone https://github.com/AmitBarate07/devops-study-git.git
     ```
+2. Git basic cammands 
 
+    ```bash
+    git status
+
+    Explanation:
+
+        When you run the git status command, it will display the following key information:
+
+        1. Current branch:
+
+        The first line of output will indicate the current branch you are on (e.g., On branch main).
+
+        2. Staging area (index):
+
+        It shows files that have been modified and are staged (ready to be committed). Files staged for commit will appear under a section like:
+    
+    ```
+3. Clone the repository:
+    ```bash
+    git clone https://github.com/AmitBarate07/devops-study-git.git
+    ```
 
 ### Prerequisites
 
