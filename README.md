@@ -40,11 +40,29 @@ A detailed GitWorking
         2. Staging area (index):
 
         It shows files that have been modified and are staged (ready to be committed). Files staged for commit will appear under a section like:
-        
-3. Clone the repository:
-    ```bash
-    git clone https://github.com/AmitBarate07/devops-study-git.git
-    ```
+3. **Stage your changes**:
+   - Once you've made changes, use `git add` to stage them for commit:
+     ```bash
+     git add <file>          # Stage a specific file
+     git add .               # Stage all modified files
+     ```
+   - The `git add` command moves your changes to the staging area, preparing them to be committed.
+
+4. **Commit your changes**:
+   - After staging your changes, commit them with a message using `git commit -m`:
+     ```bash
+     git commit -m "Descriptive message about your changes"
+     ```
+   - This will create a new commit with the changes you've made and the message you provided. The commit message should be concise and explain what the changes are.
+
+5. **Push your changes**:
+   - Finally, push your committed changes to the remote repository using `git push`:
+     ```bash
+     git push origin main      # Pushes changes to the 'main' branch
+     git push origin feature-1 # Pushes changes to a specific feature branch
+     ```
+   - The `git push` command uploads your local commits to the remote repository, making them available to others.
+
 
 ### Prerequisites
 
