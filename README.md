@@ -6,8 +6,8 @@ A brief description of your project and what it does.
 
 ## Table of Contents (Optional)
 - [GitWorking](#GitWorking)
+- [Imp-links](#Imp-links)
 - [GitCammands](#GitCammands)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -16,6 +16,9 @@ A detailed GitWorking
 
 ![Logo](images/git-working.gif)
 
+## Imp-links
+1. https://www.youtube.com/watch?v=e9lnsKot_SQ&t=14s&pp=ygUKZ2l0ICA0IG1pbg%3D%3D
+2. https://youtu.be/RGOj5yH7evk
 ## GitCammands
 1. Clone the repository:
     ```bash
