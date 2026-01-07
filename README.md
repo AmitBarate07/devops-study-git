@@ -32,10 +32,5 @@ A detailed description of what your project is and what it does.
 2. Step 2
 3. Step 3
 
-![Logo](images/git working.gif)
-Example:
+![Logo](images/git-working.gif)
 
-```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
-npm install
