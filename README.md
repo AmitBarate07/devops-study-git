@@ -5,17 +5,18 @@ devops-study-git
 A brief description of your project and what it does.
 
 ## Table of Contents (Optional)
-- [Description](#description)
-- [Installation](#installation)
+- [GitWorking](#GitWorking)
+- [GitCammands](#GitCammands)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Description
+## GitWorking
+A detailed GitWorking 
 
-A detailed description of what your project is and what it does. 
+![Logo](images/git-working.gif)
 
-## Installation
+## GitCammands
 1. Clone the repository:
     ```bash
     git clone https://github.com/yourusername/weather-app.git
@@ -32,5 +33,5 @@ A detailed description of what your project is and what it does.
 2. Step 2
 3. Step 3
 
-![Logo](images/git-working.gif)
+
 
