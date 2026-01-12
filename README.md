@@ -126,15 +126,15 @@ A detailed Git Workflow
 ```bash
 Go to GitHub → Settings → SSH and GPG keys
 
-    Click New SSH key
+    Click >>>New SSH key
 
-    Fill details:
+    Fill >>>details:
 
-    Title: github
+    Title: >>>github
 
-    Key type: Authentication Key
+    Key >>> type: Authentication Key
 
-    Key: Paste copied public key
+    Key:>>> Paste copied public key
 
     Click Add SSH key
 ```
