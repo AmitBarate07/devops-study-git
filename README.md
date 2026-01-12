@@ -79,7 +79,7 @@ A detailed Git Workflow
     git checkout <branch-name>
     ```
  - To create a new branch and immediately switch to it, you can use either:
-        ```bash
+    ```bash
     git checkout -b <new-branch-name>
     ```
 
