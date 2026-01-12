@@ -8,8 +8,8 @@ A brief description of your project and what it does.
 - [GitWorking](#GitWorking)
 - [Imp-links](#Imp-links)
 - [GitCammands](#GitCammands)
-- [Contributing](#contributing)
-- [License](#license)
+<!-- - [Contributing](#contributing)
+- [License](#license) -->
 
 ## GitWorking
 A detailed GitWorking 
@@ -63,16 +63,58 @@ A detailed GitWorking
      ```
    - The `git push` command uploads your local commits to the remote repository, making them available to others.
 
+6. **workflow**
+A detailed Git Workflow
+![Logo](images/git-workflow-process.png)
 
-### Prerequisites
+7. Git Remote Commands
 
-- Software or tools required for your project (e.g., Node.js, Python, etc.)
+    **Purpose**: Displays the URLs of the remote repositories associated with your local repository.
+    ```bash
+    git remote -v
+    ```
+8. **Checkout a Branch:**
+  - To switch to an existing branch, you can use the following git checkout command:
+      ```bash
+    git checkout <branch-name>
+    ```
+  - To create a new branch and immediately switch to it, you can use either:
+        ```bash
+    git checkout -b <new-branch-name>
+    ```
 
-### Steps
+9. **switch  a Branch:**
+  - The git switch command was introduced in Git 2.23 as a more user-friendly way to handle branch switching.
+      ```bash
+    git switch <branch-name>
 
-1. Step 1
-2. Step 2
-3. Step 3
+    ```
+10. **Git Diff:**
+  - git diff – Shows unstaged changes in the working directory.
 
+   - git diff --cached – Shows changes staged for the next commit.
 
+    - git diff <commit1> <commit2> – Compares two commits.
+
+   - git diff <branch1> <branch2> – Compares two branches.
+
+   - git diff <commit> – Compares a specific commit with the working directory.
+
+    - git diff <file-name> – Compares changes for a specific file.
+11. **Merge a Feature Branch into the Current Branch**
+    - First, ensure you are on the branch that you want to merge into (e.g., main):
+    ```bash
+        git checkout main
+
+    ```
+    - Then, merge the feature branch (e.g., feature-branch) into the current branch:
+    ```bash
+        git merge feature-branch
+
+    ```
+12. **Add key into github**
+```bash
+   
+```
+![Logo](images/pub-key.png)
 
