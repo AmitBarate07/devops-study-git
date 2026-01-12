@@ -78,7 +78,7 @@ A detailed Git Workflow
       ```bash
     git checkout <branch-name>
     ```
-  - To create a new branch and immediately switch to it, you can use either:
+ - To create a new branch and immediately switch to it, you can use either:
         ```bash
     git checkout -b <new-branch-name>
     ```
@@ -114,7 +114,30 @@ A detailed Git Workflow
     ```
 12. **Add key into github**
 ```bash
+    ssh-keygen -t ed25519 -C "akb0103.official@gmail.com" -f ~/.ssh/github
+    cat ~/.ssh/github.pub
+
    
 ```
+- This creates:
+- Private key: ~/.ssh/github
+- Public key: ~/.ssh/github.pub
+- Add SSH key to GitHub
+```bash
+Go to GitHub → Settings → SSH and GPG keys
+
+    Click New SSH key
+
+    Fill details:
+
+    Title: github
+
+    Key type: Authentication Key
+
+    Key: Paste copied public key
+
+    Click Add SSH key
+```
+
 ![Logo](images/pub-key.png)
 
