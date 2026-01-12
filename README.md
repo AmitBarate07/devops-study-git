@@ -141,3 +141,4 @@ Go to GitHub → Settings → SSH and GPG keys
 
 ![Logo](images/pub-key.png)
 
+## Thanks for reading ###########################################################################################
